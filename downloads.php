@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Women Cell :: Government Engineering College, Patan</title>
+  <title>Download :: Government Engineering College, Modasa</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
@@ -43,20 +43,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-        <li><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="index.php">Home</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#" style="color:#fed136">About
+          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="about.html">About College</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="about.php">About College</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
+            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
           </ul>
         </li>
 
@@ -69,10 +69,10 @@
             <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html" >People</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
         <li>
           <a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="downloads.php" style="color:#fed136">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
         </ul>
 
@@ -82,49 +82,30 @@
     <!--/.container-fluid -->
   </nav>
 
-  <section class="page-section text-center" style="margin-top:150px;">
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Women Cell Information</h2>
-        </div>
-      </div>
-      <div class="ssip-info text-left">
-        <hr><br>
-        <p class="text-muted">The Prime Role of Women Development Cell (WDC) is to provide and maintain a dignified and safe working environment for women employees (including teaching, non-teaching and contractual workers) and students, where they can work, study and explore their potential to the fullest. It includes women Harassment complaint committee and women empowerment program co-ordination committee.
-        </p>
-        <h5 class="text-muted">Sub-Objectives: </h5>
-        <ul class="text-muted">
-          <li>To create awareness of women’s rights and their roles in the society.</li>
-          <li>To create social awareness about the problems of women and in particular regarding gender discrimination.</li>
-          <li>To provide a forum for women on the campus to share information and resources and exchange of ideas. </li>
-          <li>To give information about safety and security measures for female employees and girl students by conducting seminar on safety.</li>
-        </ul>
-        <h5 class="text-muted">Women's Development Committee (2018-19)</h5><br>
-        <h6>Convener: 
-          <span>
-            <ul>
-              <li  class="text-muted">Prof. Sita  Agrawal</li>
-            </ul>
-          </span></h6>
-        <h6>Supporting members:
-          <span class="text-muted">
-            <ul>
-              <li>Prof. Avani  Vithalani</li>
-              <li>Prof. Swapna  Pawar</li>
-              <li>Prof. Roshni Chaudhari</li>
-              <li>Smt. Reena  Prajapati</li>
-            </ul>
-          </span>
-        </h6>
-        
-        <hr><br>
-      </div>
+<header  style="margin-top:150px;">
+    <div class="container ">
+      <center><h3><b>Important Downloads</b></h3></center>      
     </div>
-  </section>
-
-  <!-- Footer -->
+  </header>
+<hr>
+<ul>
+  <li><a href="#">Tree Plantation Day - 2019</a></li>
+  <li><a href="#">Powder Shower</a></li>
+  <li><a href="#">National Youth Day</a></li>
+  <li><a href="#">Republic Day Celebration</a></li>
+  <li><a href="#">World Sparrow Day</a></li>
+  <li><a href="#">International women's Day</a></li>
+  <li><a href="#">Undertaking Form for Industrial Visit</a></li>
+  <li><a href="#">Kargil Vijay Day Report 2019</a></li>
+  <li><a href="#">Canteen Tender-2019</a></li>
+  <li><a href="#">Scholarship Information</a></li>
+  <li><a href="#">Revised Canteen Tender-2019</a></li>
+  <li><a href="#">Notice</a></li>
+  <li><a href="#">NSS Camp</a></li>
+  <li><a href="#">Independence Day Report</a></li>
+</ul>
+<hr><br>
+    <!-- Footer -->
   <footer class="footer" id="footer">
     <div class="container">
       <div class="row">
@@ -227,6 +208,7 @@
     </div>
   </footer>
   
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
