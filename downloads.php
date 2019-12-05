@@ -1,10 +1,12 @@
 <?php include("./templates/nav.php"); ?>
 
-<header  style="margin-top:150px;">
-    <div class="container ">
-      <center><h3><b>Important Downloads</b></h3></center>      
-    </div>
-  </header>
+<header style="margin-top:150px;">
+  <div class="container ">
+    <center>
+      <h3><b>Important Downloads</b></h3>
+    </center>
+  </div>
+</header>
 <hr>
 <ul>
   <li><a href="#">Tree Plantation Day - 2019</a></li>
