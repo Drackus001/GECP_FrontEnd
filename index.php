@@ -35,92 +35,26 @@
 
   <!--Loader start-->
   <?php
-    include './templates/loader.php';
+    include_once './templates/loader.php';
   ?>
   <!-- Loader end -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container-fluid">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      	<div class="row clg-brand">
-  			<div class="col-lg-2 clg-img">
-  				<img class="img-fluid float-left" src="img/logos/gec.png" alt="logo">
-  			</div>
-  			<div class="col-md-6 clg-head">
-  				<h5 >Government Engineering College,Patan</h5>
-      			<h6 >( Under Directorate of Technical Education )</h6>
-  			</div>
-      	</div>
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="active nav-link js-scroll-trigger"><a href="#">Home</a></li>
-
-        <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#about"> About College</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Academic<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#">Acadmemic Calendar</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Programs</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Labs</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
-          </ul>
-        </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html">People</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
-        </ul>
-
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-    <!--/.container-fluid -->
-  </nav>
+  <!-- Navigation Start -->
+  <?php
+  include_once './templates/nav.php';
+  ?>
+  <!-- Navigation End -->
 
   <!-- Slider start -->
-	<div id="slideshow">
-      <div id="slidewindow">
-        <div><img alt="Slideshow Image I" src="img/adminBlock.jpg"></div>
-        <div><img alt="Slideshow Image II" src="img/adminBlock.jpg"></div>
-        <div><img alt="Slideshow Image III" src="img/adminBlock.jpg"></div>
-      </div>
-      <div id="controls">
-        <a id="next">
-          <div></div>
-        </a>
-        <ul id="dots"></ul>
-        <a id="prev">
-          <div></div>
-        </a>
-      </div>
-  </div>
+<?php
+include_once './templates/slider.php';
+ ?>
   <!--/ Slider end -->
 
 <a href="developers.html">developer page</a> <br>
 <a href="profile.html">detail profile </a><br>
 
-<!--News-->
+<!--News Start-->
   <section class="page-section" id="temp">
     <div class="container-fluid">
       <div class="row">
@@ -130,7 +64,9 @@
               <p class="text-left">Government Engineering College, Patan was established in April 2004 with three branches Computer Engineering, Electronics and Communication Engineering and Mechanical Engineering each with intake of 60 totaling to 180. The institute was initially functioning in the premises of the K. D. Polytechnic, Patan temporarily. It was shifted to its own newly built up green premise in August 2008 at Katpur village on Chanasma- Patan road 8 kms before Patan. Two more branches of Electrical Engineering and Civil Engineering each with intake of 60 were introduced from June- 2009 and the intake of all three existing branches were increased to 120. Currently, institute functions with total intake of 480 in five different branches. </p>
               <p class="text-left">Government Engineering College, Patan was established in April 2004 with three branches Computer Engineering, Electronics and Communication Engineering and Mechanical Engineering each with intake of 60 totaling to 180. The institute was initially functioning in the premises of the K. D. Polytechnic, Patan temporarily. It was shifted to its own newly built up green premise in August 2008 at Katpur village on Chanasma- Patan road 8 kms before Patan. Two more branches of Electrical Engineering and Civil Engineering each with intake of 60 were introduced from June- 2009 and the intake of all three existing branches were increased to 120. Currently, institute functions with total intake of 480 in five different branches. </p>
             </div>
-          <div class="col-xs-6 col-lg-4 news-box">
+
+          <!-- News Box Start -->
+            <div class="col-xs-6 col-lg-4 news-box">
               <div class=" news">
                 <h4 class="text-center">Latest News</h4>
                 <div class="news-list">
@@ -161,11 +97,13 @@
                 </div>
               </div>
           </div>
+          <!-- News Box End -->
+
       </div>
     </div>  
   </section>
 
-  <!-- Courses Grid -->
+  <!-- Courses Grid Start -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container" id="course-contain">
       <div class="row">
@@ -309,8 +247,9 @@
       </div>
     </div>
   </section>
+  <!-- Courses Grid End -->
 
-  <!-- About -->
+  <!-- About Start-->
   <section class="page-section" id="about" data-aos="zoom-in-up">
     <div class="container" data-aos="zoom-in-up">
       <div class="row">
@@ -382,8 +321,9 @@
       </div>
     </div>
   </section>
+  <!-- About End -->
 
-  <!-- ADD-ON -->
+  <!-- ADD-ON Start-->
   <section class="bg-light page-section center" id="team">
     <div class="container">
       <div class="row">
@@ -461,112 +401,21 @@
       </div>
     </div>
   </section>
+  <!-- ADD ON End -->
 
-  <!-- Footer -->
-  <footer class="footer" id="footer">
-    <div class="container">
-    	<div class="row">
-	      
-	      <div class="col-md-4 col-sm-12 footer-widget">
-	        <h5 class="widget-title">Recent Posts</h5>
-	        
-	      </div>
-	      <!--/ End Recent Posts-->
-
-
-	      <div class="col-md-4 col-sm-12 footer-widget">
-	        <h5 class="widget-title"> Photos</h5>
-
-	        <div class="img-gallery">
-	          <div class="img-container">
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/1.jpg">
-	              <img src="img/gallery/1.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/2.jpg">
-	              <img src="img/gallery/2.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/3.jpg">
-	              <img src="img/gallery/3.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/4.jpg">
-	              <img src="img/gallery/4.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/5.jpg">
-	              <img src="img/gallery/5.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/6.jpg">
-	              <img src="img/gallery/6.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/6.jpg">
-	              <img src="img/gallery/7.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/6.jpg">
-	              <img src="img/gallery/8.jpg" alt="IMG">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="img/gallery/6.jpg">
-	              <img src="img/gallery/9.jpg" alt="IMG">
-	            </a>
-	          </div>
-	        </div>
-	      </div>
-	      <!--/ end flickr -->
-
-	      <div class="col-md-3 col-sm-12 footer-widget footer-about-us">
-	        <h5 class="widget-title"> Contact</h5><br>
-	        <div class="row widget-title">
-	           <div class="col-md-12" style="text-align: left;">
-	            <p >Address: <span style="color: #fec503;">At & Post. Katpur,Patan</span></p>   
-	          </div>
-	          <div class="col-md-12" style="text-align: left;">
-	            <p >Email: <a href="mailto:principalgecpatan@gmail.com">principalgecpatan@gmail.com</a></p>   
-	          </div>
-	          <div class="col-md-12" style="text-align: left;">
-	            <p>Phone No: <span style="color: #fec503;">+2766291560</span></p>
-	            
-	          </div>
-	        </div>
-	      </div>
-	      <!--/ end about us -->
-
-	    </div><!-- Row end -->
-	    <hr>
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright  &copy; . All Rights Reserved</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-       <span class="copyright">Designed and Developed by<br>
-       	<a href="#">Students of GEC,Patan</a></span>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <!-- Footer Start-->
+  <?php
+  include_once './templates/footer.php';
+  ?>
+  <!-- Footer End -->
 	
 
-	  <!-- Bootstrap core JavaScript -->
+	  <!-- Bootstrap core JavaScript Start-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  
   	<script>
   		/*animation*/
       setTimeout(function(){
