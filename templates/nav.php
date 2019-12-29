@@ -20,21 +20,25 @@
         <ul class="navbar-nav text-uppercase ml-auto">
         <li class="active nav-link js-scroll-trigger"><a href="index.php">Home</a></li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Departments
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          <a href="#"><li class="dropdown-item"> Civil eng</li>  </a>
-          <a href="#"><li class="dropdown-item">Mechanical Eng</li> <li class="divider"></li></a>
-          <a href="#"><li class="dropdown-item">Computer & Sci Eng</li> <li class="divider"></li> </a>
-          <a href="#"><li class="dropdown-item">Elec. Comm Eng</li> <li class="divider"></li> </a>
-          <a href="#"><li class="dropdown-item">Electrical Eng</li> <li class="divider"></li> </a>
-          <a href="#"><li class="dropdown-item">Centre of Excellence</li> <li class="divider"></li> </a>
-          <a href="#"><li class="dropdown-item">General Dept</li> <li class="divider"></li> </a>
-          
-          </ul>
-        </li>
-
+                            <?php
+                            $sql = "SELECT name,id FROM departments;";
+                            $result = mysqli_query($conn, $sql);
+                            $resultCheck = mysqli_num_rows($result);
+                            if ($resultCheck > 0) {
+                            echo '<li class="dropdown">
+                            <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Departments
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">';
+                                while ($row = mysqli_fetch_assoc($result)) {
+                                  echo '<a href="department_info.php?dept='.$row['id'].'"><li class="dropdown-item">'.$row['name'].'</li>  </a>';
+                                }
+                                echo '</ul>
+                                </li>';
+                            } else {
+                                echo 'SQL ERROR';
+                            }
+                            ?>
+        
         <li class="dropdown">
           <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Campus
           <span class="caret"></span></a>
@@ -46,17 +50,24 @@
         </ul>
         </li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Commities
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          <a href="ARagging.php"><li class="dropdown-item">Anti-Ragging</li> <li class="divider"></li></a>
-          <a href="womenCell.php"><li class="dropdown-item">Women Cell</li> <li class="divider"></li></a>
-          <a href="ssip.php"><li class="dropdown-item">SSIP</li> <li class="divider"></li></a>
-          <a href="tpo.php"><li class="dropdown-item">Training and Placement</li> <li class="divider"></li></a>
-          <a href="rti.php"><li class="dropdown-item">RTI</li> <li class="divider"></li> </a>
-          </ul>
-        </li>
+        <?php
+                            $sql = "SELECT name,id FROM commities;";
+                            $result = mysqli_query($conn, $sql);
+                            $resultCheck = mysqli_num_rows($result);
+                            if ($resultCheck > 0) {
+                            echo '<li class="dropdown">
+                            <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Commities
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">';
+                                while ($row = mysqli_fetch_assoc($result)) {
+                                  echo '<a href="commity_info.php?commity='.$row['id'].'"><li class="dropdown-item">'.$row['name'].'</li>  </a>';
+                                }
+                                echo '</ul>
+                                </li>';
+                            } else {
+                                echo 'SQL ERROR';
+                            }
+                            ?>
 
         <li><a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
         <li><a class="nav-link js-scroll-trigger" href="downloads.php">Downloads</a></li>
