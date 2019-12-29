@@ -33,10 +33,11 @@
 </head>
 <body id="page-top">  
 
-  <!--Loader-->
-  <div class="loader-bg">
-  <div class="loader"></div>
-  </div>
+  <!--Loader start-->
+  <?php
+    include './templates/loader.php';
+  ?>
+  <!-- Loader end -->
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
