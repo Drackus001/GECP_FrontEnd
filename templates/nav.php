@@ -21,32 +21,43 @@
         <li class="active nav-link js-scroll-trigger"><a href="index.php">Home</a></li>
 
         <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
+          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Departments
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-          <a href="#about"><li class="dropdown-item"> About College</li>  </a>
-          <a href="#"><li class="dropdown-item">College Campus</li> <li class="divider"></li></a>
-          <a href="tpo.php"><li class="dropdown-item">Placement Cell</li> <li class="divider"></li> </a>
-          <a href="womenCell.php"><li class="dropdown-item">Women Cell</li> <li class="divider"></li> </a>
-          <a href="#"><li class="dropdown-item">Grievance Cell</li> <li class="divider"></li> </a>
-          <a href="ARagging.php"><li class="dropdown-item">Anti Ragging</li> <li class="divider"></li> </a>
-          <a href="ssip.php"><li class="dropdown-item">Student Startup & Innovation</li> <li class="divider"></li> </a>
-          <a href="rti.php"><li class="dropdown-item">RTI</li> <li class="divider"></li> </a>
-          <a href="tpo.php"><li class="dropdown-item">TPO</li></a>
-          <a href="newsletter.php"><li class="dropdown-item">Newsletter</li></a>
+          <a href="#"><li class="dropdown-item"> Civil eng</li>  </a>
+          <a href="#"><li class="dropdown-item">Mechanical Eng</li> <li class="divider"></li></a>
+          <a href="#"><li class="dropdown-item">Computer & Sci Eng</li> <li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">Elec. Comm Eng</li> <li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">Electrical Eng</li> <li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">Centre of Excellence</li> <li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">General Dept</li> <li class="divider"></li> </a>
+          
           </ul>
         </li>
 
         <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Academic<span class="caret"></span></a>
+          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Campus
+          <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <a href="#"><li class="dropdown-item">Acadmemic Calendar</li> <li class="divider"></li> </a>
-            <a href="#"><li class="dropdown-item">Programs</li> <li class="divider"></li> </a>
-            <a href="#"><li class="dropdown-item">Labs</li> <li class="divider"></li> </a>
-            <a href="#"><li class="dropdown-item">Workshop<li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">Library</li> <li class="divider"></li></a>
+          <a href="#"><li class="dropdown-item">Canteen</li> <li class="divider"></li></a>
+          <a href="#"><li class="dropdown-item">Hostels</li> <li class="divider"></li></a>
+          <a href="#"><li class="dropdown-item">Workshop</li> <li class="divider"></li></a>
+        </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Commities
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <a href="ARagging.php"><li class="dropdown-item">Anti-Ragging</li> <li class="divider"></li></a>
+          <a href="womenCell.php"><li class="dropdown-item">Women Cell</li> <li class="divider"></li></a>
+          <a href="ssip.php"><li class="dropdown-item">SSIP</li> <li class="divider"></li></a>
+          <a href="tpo.php"><li class="dropdown-item">Training and Placement</li> <li class="divider"></li></a>
+          <a href="rti.php"><li class="dropdown-item">RTI</li> <li class="divider"></li> </a>
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
+
         <li><a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
         <li><a class="nav-link js-scroll-trigger" href="downloads.php">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
