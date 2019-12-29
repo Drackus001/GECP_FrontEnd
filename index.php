@@ -1,36 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Home :: Government Engineering College, Patan</title>
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <!-- Custom fonts for this template -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <!-- Custom styles for this template -->
-  <link href="css/slider/css/slicebox.css" rel="stylesheet">
-  <link href="css/globalStyle.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <style type="text/css">
-  	#mainNav{
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #484848;
-  }
-  </style>  
+<!-- Head start -->
+<?php
+$title = "Home :: Government Engineering College, Patan";
+include_once './templates/head.php';
+?>
+<!-- Custom fonts for this template -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
+<!-- Head End -->
+
 <body id="page-top">  
 
   <!--Loader start-->
@@ -51,8 +29,9 @@ include_once './templates/slider.php';
  ?>
   <!--/ Slider end -->
 
-<a href="developers.php">developer page</a> <br>
+<a href="developers.php">developer page</a><br>
 <a href="profile.php">detail profile </a><br>
+<a href="tpo.php">detail profile </a><br>
 
 <!--News Start-->
   <section class="page-section" id="temp">
@@ -66,261 +45,26 @@ include_once './templates/slider.php';
             </div>
 
           <!-- News Box Start -->
-            <div class="col-xs-6 col-lg-4 news-box">
-              <div class=" news">
-                <h4 class="text-center">Latest News</h4>
-                <div class="news-list">
-                  <ul>
-                    <li>dhdf</li>
-                    <li>sgdsdgd</li>
-                    <li>sdfdsfdnfjdfn</li>
-                    <li>dkfknsdfndkf</li>
-                    <li>dmskndfnsmdf</li>
-                    <li>dfndn,dn</li>
-                    <li>dhdf</li>
-                    <li>sgdsdgd</li>
-                    <li>sdfdsfdnfjdfn</li>
-                    <li>dkfknsdfndkf</li>
-                    <li>dmskndfnsmdf</li>
-                    <li>dfndn,dn</li><li>dhdf</li>
-                    <li>sgdsdgd</li>
-                    <li>sdfdsfdnfjdfn</li>
-                    <li>dkfknsdfndkf</li>
-                    <li>dmskndfnsmdf</li>
-                    <li>dfndn,dn</li><li>dhdf</li>
-                    <li>sgdsdgd</li>
-                    <li>sdfdsfdnfjdfn</li>
-                    <li>dkfknsdfndkf</li>
-                    <li>dmskndfnsmdf</li>
-                    <li>dfndn,dn</li>
-                  </ul>
-                </div>
-              </div>
-          </div>
+            <?php
+            include './templates/newsBox.php';
+             ?>
           <!-- News Box End -->
 
       </div>
     </div>  
   </section>
+  <!--News End-->
 
   <!-- Courses Grid Start -->
-  <section class="bg-light page-section" id="portfolio">
-    <div class="container" id="course-contain">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Courses</h2>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
-      </div>
-      <div class="row course-list">
-
-        <div class=" col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>APPLIED MECHANICS</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>CENTER OF EXCELLENCE</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>CIVIL ENGINNERING</h4>
-            <p class="text-muted">B.E.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-left">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>COMPUTER SCIENCE & ENGG.</h4>
-            <p class="text-muted">B.E.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-left">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>ELECTRICAL ENGINNERING</h4>
-            <p class="text-muted">B.E.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-left">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>ELECTRONICS & COMMUNICATION ENGG.</h4>
-            <p class="text-muted">B.E.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>GENERAL</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>MECHANICAL ENGINNERING</h4>
-            <p class="text-muted">B.E.</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-6 portfolio-item" data-aos="fade-right">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>TEQIP</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php
+  include './templates/courses.php';
+   ?>
   <!-- Courses Grid End -->
 
   <!-- About Start-->
-  <section class="page-section" id="about" data-aos="zoom-in-up">
-    <div class="container" data-aos="zoom-in-up">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Government Engineering College,at. Katpur, Patan</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li data-aos="fade-down-right">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>April 2004</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">GEC,Patan was established in April 2004 with three branches Computer Engineering, Electronics and Communication Engineering and Mechanical Engineering each with intake of 60 totaling to 180. </p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted" data-aos="fade-down-left">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2008</h4>
-                  <h4 class="subheading">Own Premises</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">The institute was initially functioning in the premises of the K. D. Polytechnic, Patan temporarily. It was shifted to its own newly built up green premise in August 2008 at Katpur village on Chanasma- Patan road 8 kms before Patan.</p>
-                </div>
-              </div>
-            </li>
-            <li data-aos="fade-down-right">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>June 2009</h4>
-                  <h4 class="subheading">Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Two more branches of Electrical Engineering and Civil Engineering each with intake of 60 were introduced from June- 2009 and the intake of all three existing branches were increased to 120.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted" data-aos="fade-down-right">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="subheading">Present</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted"> Currently, institute functions with total intake of 480 in five different branches.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php
+  include './templates/about.php';
+   ?>
   <!-- About End -->
 
   <!-- ADD-ON Start-->
@@ -409,18 +153,17 @@ include_once './templates/slider.php';
   ?>
   <!-- Footer End -->
 	
-
-	  <!-- Bootstrap core JavaScript Start-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- Bootstrap core JavaScript Start-->
+  <?php
+  include './templates/scripts.php';
+  ?>
+  <!-- Bootstrap core JavaScript End-->
   
   	<script>
-  		/*animation*/
-      setTimeout(function(){
-        $('.loader-bg').fadeOut();
-      },1500);
+  		// /*animation*/
+      // setTimeout(function(){
+      //   $('.loader-bg').fadeOut();
+      // },1500);
       AOS.init({duration:1100});
       /*news*/
   		$(function(){

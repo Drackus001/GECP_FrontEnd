@@ -18,7 +18,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="active nav-link js-scroll-trigger"><a href="#">Home</a></li>
+        <li class="active nav-link js-scroll-trigger"><a href="index.php">Home</a></li>
 
         <li class="dropdown">
           <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
