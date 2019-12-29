@@ -1,4 +1,3 @@
-<!-- Checking for git branch working -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
