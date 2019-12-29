@@ -79,14 +79,18 @@ color: #fec503;
 #mainNav #navbarResponsive .dropdown .dropdown-menu{
 background-color: #484848;
 }
-#mainNav #navbarResponsive .dropdown .dropdown-menu .dropdown-item a{
+#mainNav #navbarResponsive .dropdown .dropdown-menu .dropdown-item{
 color: #ffffff80;
 }
-#mainNav #navbarResponsive .dropdown .dropdown-menu .dropdown-item:hover{
-background-color: #fec503;
-}
-#mainNav #navbarResponsive .dropdown .dropdown-menu .dropdown-item a:hover{
-color: #fff;
+
+/* #mainNav #navbarResponsive .dropdown .dropdown-menu .dropdown-item:hover{
+
+} */
+
+#mainNav #navbarResponsive .dropdown .dropdown-menu a .dropdown-item:hover{
+  background-color: #fec503;
+  color: #fff;
+
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {

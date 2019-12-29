@@ -24,25 +24,25 @@
           <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#about"> About College</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
+          <a href="#about"><li class="dropdown-item"> About College</li>  </a>
+          <a href="#"><li class="dropdown-item">College Campus</li> <li class="divider"></li></a>
+          <a href="tpo.php"><li class="dropdown-item">Placement Cell</li> <li class="divider"></li> </a>
+          <a href="womenCell.php"><li class="dropdown-item">Women Cell</li> <li class="divider"></li> </a>
+          <a href="#"><li class="dropdown-item">Grievance Cell</li> <li class="divider"></li> </a>
+          <a href="ARagging.php"><li class="dropdown-item">Anti Ragging</li> <li class="divider"></li> </a>
+          <a href="ssip.php"><li class="dropdown-item">Student Startup & Innovation</li> <li class="divider"></li> </a>
+          <a href="rti.php"><li class="dropdown-item">RTI</li> <li class="divider"></li> </a>
+          <a href="newsletter.php"><li class="dropdown-item">Newsletter</li></a>
           </ul>
         </li>
 
         <li class="dropdown">
           <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">Academic<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#">Acadmemic Calendar</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Programs</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Labs</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
+            <a href="#"><li class="dropdown-item">Acadmemic Calendar</li> <li class="divider"></li> </a>
+            <a href="#"><li class="dropdown-item">Programs</li> <li class="divider"></li> </a>
+            <a href="#"><li class="dropdown-item">Labs</li> <li class="divider"></li> </a>
+            <a href="#"><li class="dropdown-item">Workshop<li class="divider"></li> </a>
           </ul>
         </li>
         <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
