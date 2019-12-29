@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SSIP :: Government Engineering College, Patan</title>
+  <title>Download :: Government Engineering College, Modasa</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
@@ -43,20 +43,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-        <li><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="index.php">Home</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#" style="color:#fed136">About
+          <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#">About
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="about.html">About College</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="about.php">About College</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
+            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
           </ul>
         </li>
 
@@ -69,10 +69,10 @@
             <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html" >People</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
         <li>
           <a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="downloads.php" style="color:#fed136">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
         </ul>
 
@@ -82,35 +82,30 @@
     <!--/.container-fluid -->
   </nav>
 
-  <section class="page-section text-center" style="margin-top:150px;">
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Student Start up & Innovation Information</h2>
-        </div>
-      </div>
-      <div class="ssip-info text-left">
-        <hr><br>
-        <p class="text-muted">Innovation is the key for every economy to grow, and innovation takes place at every layer of the society. The government of India has declared 2010-20 as the decade of innovation to unleash the creative potential of every Indian. The Government of India has also set up the "Atal Innovation Mission" and "Startup India, Stand-up India" mission to spearhead innovation movement across the nation. The youth of the country and the university system play a crucial role at every step to shape the innovation ecosystem. To build startup and innovation culture across universities is the key goal of Startup India action plan.
-        </p>
-        <p class="text-muted"> 
-        In Gujarat, a large number of thesis and innovative ideas emerges every year from nearly 1.4 million students from 60+ universities and institutes of higher education in Gujarat. This source of new innovations and startups catering to new products and services form the base for the need of ecosystem of innovation policy in the state.
-        </p>
-        <p class="text-muted">
-         The education department of the state government is aiming to leverage these avenues in a systematic manner by building student-centric innovation and preincubation processes.Harnessing the creative potential of young students across universities and educational institutions is also necessary to generate an entrepreneurial model of inclusive development.
-        </p>
-        <p class="text-muted">
-         Gujarat has witnessed huge industrial growth in last decade and hence it is imperative need to have arobust system to support student innovation. To facilitate and pre-incubate innovative ideas to go through a stage of proof of concept, prototype, product, testing & trial, redesign and development of utility, the student startup and innovation policy of the state would help in building innovation and pre-incubation processes of the state higher education.
-        </p>
-        <br>
-        <p class="text-muted">Dr. Hitesh Panchal</p>
-        <p class="text-muted">SSIP Coordinator</p><hr><br>
-      </div>
+<header  style="margin-top:150px;">
+    <div class="container ">
+      <center><h3><b>Important Downloads</b></h3></center>      
     </div>
-  </section>
-
-  <!-- Footer -->
+  </header>
+<hr>
+<ul>
+  <li><a href="#">Tree Plantation Day - 2019</a></li>
+  <li><a href="#">Powder Shower</a></li>
+  <li><a href="#">National Youth Day</a></li>
+  <li><a href="#">Republic Day Celebration</a></li>
+  <li><a href="#">World Sparrow Day</a></li>
+  <li><a href="#">International women's Day</a></li>
+  <li><a href="#">Undertaking Form for Industrial Visit</a></li>
+  <li><a href="#">Kargil Vijay Day Report 2019</a></li>
+  <li><a href="#">Canteen Tender-2019</a></li>
+  <li><a href="#">Scholarship Information</a></li>
+  <li><a href="#">Revised Canteen Tender-2019</a></li>
+  <li><a href="#">Notice</a></li>
+  <li><a href="#">NSS Camp</a></li>
+  <li><a href="#">Independence Day Report</a></li>
+</ul>
+<hr><br>
+    <!-- Footer -->
   <footer class="footer" id="footer">
     <div class="container">
       <div class="row">
@@ -213,6 +208,7 @@
     </div>
   </footer>
   
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

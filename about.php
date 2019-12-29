@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>TPO :: Government Engineering College, Patan</title>
+  <title>About :: Government Engineering College, Patan</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
@@ -43,20 +43,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-        <li><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="index.php">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle nav-link js-scroll-trigger" data-toggle="dropdown" href="#" style="color:#fed136">About
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="about.html">About College</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="about.php">About College</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
+            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
           </ul>
         </li>
 
@@ -69,10 +69,10 @@
             <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html" >People</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="faculty.php" >People</a></li>
         <li>
           <a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="downloads.php">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
         </ul>
 
@@ -87,40 +87,25 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Placement Cell Information</h2>
+          <h2 class="section-heading text-uppercase">About College</h2>
         </div>
       </div>
       <div class="ssip-info text-left">
         <hr><br>
-        <h4 class="text-center">Placement Policy</h4>
-        <p class="text-muted">The Training and Placement Cell (T&P Cell or TPC) at Government Engineering College - Patan, works professionally with the Industry to place its students in each and every sector. The T&P Cell handle all aspects of the campus recruitment at institute and also helps in enhancing the skills of the students as per the demands of the industry by conducting many numbers of seminars & workshops including KCG’s Finishing School (GoG) Programs. 
+        <p class="text-muted">Government Engineering College, Patan was established in April 2004 with three branches Computer Engineering, Electronics and Communication Engineering and  Mechanical Engineering each with intake of 60  totaling to 180.  The institute was initially functioning in  the premises of  the K. D. Polytechnic, Patan temporarily.  It was shifted to its own newly built up green premise in August 2008  at Katpur village on Chanasma- Patan road 8  kms before Patan.  Two more branches of  Electrical Engineering and  Civil Engineering each  with intake  of  60 were  introduced from June- 2009 and the  intake of all  three existing branches were increased to 120. Currently, institute functions with total intake of 480 in five different branches.
         </p>
-        <p class="text-muted"> Link for Blogspot : <a href="http://tpogecp.blogspot.com/"> http://tpogecp.blogspot.com/</a></p>
-        <h5>Placement Procedure </h5>
-        <ol class="text-muted">
-          <li>The TP Cell sends invitations to companies/organizations along with relevant information.</li>
-          <li> Company/ Organization fills in a JAF (Job Announcement Form) containing details of the job offer (pay package, place of posting, allowances and other bonuses). JAF can be sent either by post or email to the T&P Cell, GEC-Patan.
-          </li>
-          <li>Pre-Placement Talk can be organized in advance or on the same day. For fixing Pre-Placement Talk in advance, Company/ Organization can send a request along with the preferred dates. </li>
-          <li>The JAF is made available online to the students, along with any other information furnished by company/organization. The placement facility is available to all the students of GEC-Patan and in adherence to the Placement Policy.</li>
-          <li>After confirmation by the company/ organization, the Training and Placement Cell will announce the dates for campus interviews. The Order in which the companies are invited for the Placement is decided jointly by the TPC & the Principal; and will be based on various factors like pay package offered, the demand from students, and the profile of the company.</li>
-          <li> Interested students will show their willingness to participate in the recruitment process of a company by submitting the Sign-up form or by filling google-form created for the same.</li>
-          <li>The list of interested students and/or shortlisted students (in case the short listing is based on Percentage/ Grades obtained) can be sent to the company/ organization on request.</li>
-          <li>Companies come down to the campus on the allotted date/s and may conduct Aptitude/Technical Test/Personal Interviews/Group Discussion as a part of preferred selection procedure.</li>
-          <li>The Company/ Organization is required to furnish the final list of students preferably on the date of interview mentioning the joining date and other terms and conditions, if any. The company shall send or hand over the offer letter only to the Training and Placement (T&P) Cell within a set time-frame and mutual understanding.</li>
-          <li> Student’s signed offer letter will be forwarded to the company if demanded by company. </li>
-        </ol>
-        <h5>Salient Features of the Placement Process:</h5><br>
-        <ul>
-          <li class="text-muted">The Institute will provide rooms for tests (online/offline), Group Discussions and Interviews etc.</li>
-          <li class="text-muted">A team of dedicated placement faculty coordinators will work to ensure simpler logistics and all other related issues regarding campus placements</li>
-        </ul>
-        <hr>
-        <ul>
-          <li><a href="#">Placement Detail 2017-18</a> </li>
-          <li><a href="#">Placement Brochure</a></li>
-          <li><a href="#">Training and Placement Activity</a></li>
-        </ul><hr><br>
+        <h5>Mandate: </h5>
+        <p class="text-muted">To impart the technical education as per the state and national policy which satisfy the current needs of the society, to interact with the industry and research organizations for the integrated growth, to make the liaison with statutory and professional organizations and to provide the training and research opportunities to the student and faculties in best possible manner.
+        </p>
+        <h5>Vision:</h5>
+            <p class="text-muted">To prepare Human Resource with value based competency for technical advancements and growth of society.</p>
+        <h5>Mission:</h5>
+            <ol class="text-muted">
+              <li>To deliver technical programs and services to cater the current needs of society and industry.</li>
+              <li>Helping industries in solving challenges by means of providing best technical human resources.</li>
+              <li>To contribute in sustainable growth of society</li>
+            </ol>
+        <hr><br>
       </div>
     </div>
   </section>

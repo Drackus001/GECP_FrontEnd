@@ -26,13 +26,13 @@
           <ul class="dropdown-menu">
             <li class="dropdown-item"><a href="#about"> About College</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
+            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
           </ul>
         </li>
 
@@ -45,9 +45,9 @@
             <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html">People</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="downloads.php">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
         </ul>
 

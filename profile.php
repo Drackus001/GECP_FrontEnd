@@ -11,6 +11,7 @@
   <title>Home :: Government Engineering College, Patan</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -19,7 +20,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <!-- Custom styles for this template -->
   <link href="css/globalStyle.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/profileCss.css" rel="stylesheet">
   <style type="text/css">
   	#mainNav{
     padding-top: 0;
@@ -59,13 +60,13 @@
           <ul class="dropdown-menu">
             <li class="dropdown-item"><a href="#about"> About College</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">College Campus</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="tpo.html">Placement Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="womenCell.html">Women Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="tpo.php">Placement Cell</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="womenCell.php">Women Cell</a></li> <li class="divider"></li> 
             <li class="dropdown-item"><a href="#">Grievance Cell</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ARagging.html">Anti Ragging</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="ssip.html">Student Startup & Innovation</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="rti.html">RTI</a></li> <li class="divider"></li> 
-            <li class="dropdown-item"><a href="newsletter.html">Newsletter</a></li>
+            <li class="dropdown-item"><a href="ARagging.php">Anti Ragging</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="ssip.php">Student Startup & Innovation</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="rti.php">RTI</a></li> <li class="divider"></li> 
+            <li class="dropdown-item"><a href="newsletter.php">Newsletter</a></li>
           </ul>
         </li>
 
@@ -78,9 +79,9 @@
             <li class="dropdown-item"><a href="#">Workshop</a> <li class="divider"></li> 
           </ul>
         </li>
-        <li><a class="nav-link js-scroll-trigger" href="faculty.html">People</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="faculty.php">People</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Gallery</a></li>
-        <li><a class="nav-link js-scroll-trigger" href="downloads.html">Downloads</a></li>
+        <li><a class="nav-link js-scroll-trigger" href="downloads.php">Downloads</a></li>
         <li><a class="nav-link js-scroll-trigger" href="#footer">Contact Us</a></li>
         </ul>
 
@@ -90,73 +91,140 @@
     <!--/.container-fluid -->
   </nav>
 
-  <!-- Developers Grid -->
-  <section class="bg-light page-section" id="portfolio">
-          <div class="container" id="course-contain">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Designed & Developed by:</h2>
-                <h3 class="section-subheading text-muted"></h3>
+  <div id="parallax">
+      <div class="parallax"></div>
+      <h2>Mr. HARIKRISHNA JETHVA</h2>
+  </div>
+
+  <div class="container-fluid profile-section">
+    <div class="row">
+      <!--profileCard-->
+      <div class="col-md-4 profile-div">
+        <div class="container-fluid breadcrumb-modern">
+          <div class="profile-card">
+          <img src="img/team/1.jpg" class="profile-img thumbnail" alt="John">
+          <h3>Mr. HARIKRISHNA JETHVA</h3>
+          <p class="title">Associate Professor</p>
+          <p>PhD.</p>
+          <p>Neural Network, Theory of Computation, Compiler design, Soft computing, Algorithms</p>
+          <div> 
+            <a href="#"><i class="fa fa-envelope"></i></a> 
+            <a href="#"><i class="fa fa-phone"></i></a>   
+          </div>
+        </div>
+        </div>
+      </div>
+      <!--Details -->
+      <div class="col-md-8">
+        <div class="container-fluid">
+          <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#personal">Personal Details</a></li>
+            <li><a data-toggle="pill" href="#qual">Qualification Details</a></li>
+            <li><a data-toggle="pill" href="#workxp">Work Experience</a></li>
+            <li><a data-toggle="pill" href="#portF">Portfolios</a></li>
+            <li><a data-toggle="pill" href="#workshop">Training and Workshop</a></li>
+          </ul>
+          
+          <div class="tab-content">
+            <div id="personal" class="tab-pane fade in active">
+              <div class="detail">
+                <div class="col-md-12 text-left">
+                  <h2 class="section-heading text-uppercase">Personal Details :</h2>
+                </div>
+                <div class="col-md-12">
+                  <table class="table table-hover">
+                    <tr>
+                      <td>Name:</td>
+                      <td>JETHVA HARIKRISHNA B.</td>
+                    </tr>
+                    <tr>
+                      <td>Date of birth:</td>
+                      <td>30th  July 1979</td>
+                    </tr><tr>
+                      <td>Marital status:</td>
+                      <td>Married</td>
+                    </tr><tr>
+                      <td>Address:</td>
+                      <td>4 Shrinagar society, Patan(N.G.) </td>
+                    </tr>
+                  </table>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                  <div class="container-fluid breadcrumb-modern">
-                      <div class="profile-card">
-                      <img src="img/team/2.jpg" class="profile-img thumbnail" alt="John">
-                      <h3>Pavan Nooka</h3>
-                      <p class="title">Web Developer</p>
-                      <p>Student at GEC,Patan</p>
-                      <div> 
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                          <a href="#"><i class="fa fa-envelope"></i></a>  
-                      </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="container-fluid breadcrumb-modern">
-                      <div class="profile-card">
-                      <img src="img/team/2.jpg" class="profile-img thumbnail" alt="John">
-                      <h3>Satyam Aggrawal</h3>
-                      <p class="title">Web Developer</p>
-                      <p>Student at GEC,Patan</p>
-                      <div> 
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                          <a href="#"><i class="fa fa-envelope"></i></a>      
-                      </div>
-                      </div>
-                  </div>
+            <div id="qual" class="tab-pane fade">
+              <div class="detail">
+                <div class="col-md-12 text-left">
+                  <h2 class="section-heading text-uppercase">Qualification Details :</h2>
+                </div>
+                <div class="col-md-12">
+                  <table class="table table-hover">
+                    <tr>
+                      <th>Degree</th>
+                      <th>Specification</th>
+                    </tr>
+                    <tr>
+                      <td>B.E.</td>
+                      <td>Computer Engineering</td>
+                    </tr><tr>
+                      <td>M.E.</td>
+                      <td>Computer Engineering</td>
+                    </tr><tr>
+                      <td>Ph.D.</td>
+                      <td>Performance Improvement of Backpropagation Algorithm in Artificial Neural Network</td>
+                    </tr>
+                  </table>
+                </div>
               </div>
             </div>
-            <br><br>
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Guided by:</h2>
-                <h3 class="section-subheading text-muted"></h3>
+            <div id="workxp" class="tab-pane fade">
+              <div class="detail">
+                <div class="col-md-12 text-left">
+                  <h2 class="section-heading text-uppercase">Work Experience :</h2>
+                </div>
+                <div class="col-md-12">
+                  <ol>
+                    <li>Highway/Traffic Engineer at SAI Consulting Engineers PVT. LTD. (1 Year)</li>
+                    <li>Assistant Professor - Sankalchand Patel College of Engineering Visnagar (4 years)</li>
+                    <li> Assistant Professor, Government Engineering College, Patan (since 12-07-2017)</li>
+                  </ol>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                  <div class="container-fluid breadcrumb-modern">
-                      <div class="profile-card">
-                      <img src="img/team/2.jpg" class="profile-img thumbnail" alt="John">
-                      <h3>Mr. SunilKumar Patel</h3>
-                      <p class="title">Assistant Professor</p>
-                      <p> GEC,Patan</p>
-                      <div> 
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                          <a href="#"><i class="fa fa-envelope"></i></a>  
-                      </div>
-                      </div>
-                  </div>
+            <div id="portF" class="tab-pane fade">
+              <div class="detail">
+                <div class="col-md-12 text-left">
+                  <h2 class="section-heading text-uppercase">Portfolio :</h2>
+                </div>
+                <div class="col-md-12">
+                  <ol>
+                    <li>Departmental Student section Coordinator</li>
+                    <li>Departmental Training and Placement Coordinator</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div id="workshop" class="tab-pane fade">
+              <div class="detail">
+                <div class="col-md-12 text-left">
+                  <h2 class="section-heading text-uppercase">Training and Workshop :</h2>
+                </div>
+                <div class="col-md-12">
+                  <ul>
+                    <li>Taken training on " Wireless Communication " at NITTTR, Chandigarh during 07-11 May 2007.</li>
+                    <li>Taken training on “LINUX “at NITTTR, Chandigarh during 14-may-2007 to 18-may-2007.</li>
+                    <li>Taken training on "Institute Accreditation and Quality Improvement” at NITTTR, Chandigarh during 11-15 may 2009.  </li>
+                    <li>Taken training on “Entrepreneurship Development using Blue ocean strategies" at NITTTR, Chandigarh during 18-22 may 2009.</li>
+                    <li>“Entrepreneurship Skill for Service Sector” 14 to 18 Sept. 2009 at NITTTR Extension centre Ahmedabad.</li>
+                    <li>Taken training on “Computational and Simulation aspects of Nanoscience and Engineering at GEC, Patan during 18-21 Jan 2010.</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-  </section>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer" id="footer">
@@ -256,10 +324,13 @@
       </div>
     </div>
   </footer>
+	
 
-  <!-- Bootstrap core JavaScript -->
+	  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
 
-  </body>
-  </html>
+</html>

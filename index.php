@@ -51,8 +51,8 @@ include_once './templates/slider.php';
  ?>
   <!--/ Slider end -->
 
-<a href="developers.html">developer page</a> <br>
-<a href="profile.html">detail profile </a><br>
+<a href="developers.php">developer page</a> <br>
+<a href="profile.php">detail profile </a><br>
 
 <!--News Start-->
   <section class="page-section" id="temp">
