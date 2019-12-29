@@ -4,8 +4,9 @@ $title = "Home :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
 <!-- Custom fonts for this template -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/slider/css/slicebox.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <!-- Head End -->
 
@@ -29,9 +30,7 @@ include_once './templates/slider.php';
  ?>
   <!--/ Slider end -->
 
-<a href="developers.php">developer page</a><br>
 <a href="profile.php">detail profile </a><br>
-<a href="tpo.php">detail profile </a><br>
 
 <!--News Start-->
   <section class="page-section" id="temp">
@@ -157,6 +156,8 @@ include_once './templates/slider.php';
   <?php
   include './templates/scripts.php';
   ?>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <!-- Bootstrap core JavaScript End-->
   
   	<script>

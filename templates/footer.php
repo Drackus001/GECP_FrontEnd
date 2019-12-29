@@ -94,8 +94,11 @@
         </div>
         <div class="col-md-4">
        <span class="copyright">Designed and Developed by<br>
-       	<a href="#">Students of GEC,Patan</a></span>
-        </div>
+       	<a href="developers.php">Students of GEC,Patan</a></span>
+		</div>
+		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
+	      <a class="btn btn-primary" href="#page-top"><i class="fa fa-angle-double-up"></i></a>
+	    </div>
       </div>
     </div>
   </footer>

@@ -32,6 +32,7 @@
           <a href="ARagging.php"><li class="dropdown-item">Anti Ragging</li> <li class="divider"></li> </a>
           <a href="ssip.php"><li class="dropdown-item">Student Startup & Innovation</li> <li class="divider"></li> </a>
           <a href="rti.php"><li class="dropdown-item">RTI</li> <li class="divider"></li> </a>
+          <a href="tpo.php"><li class="dropdown-item">TPO</li></a>
           <a href="newsletter.php"><li class="dropdown-item">Newsletter</li></a>
           </ul>
         </li>

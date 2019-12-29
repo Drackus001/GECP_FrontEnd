@@ -3,6 +3,8 @@
 $title = "Faculty :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
+<link href="css/facStyle.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 </head>
 <!-- Head End -->
 

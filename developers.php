@@ -3,6 +3,7 @@
 $title = "Home :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <!-- Head End -->
 
@@ -35,7 +36,7 @@ include_once './templates/head.php';
                       <div class="profile-card">
                       <img src="img/team/2.jpg" class="profile-img thumbnail" alt="John">
                       <h3>Pavan Nooka</h3>
-                      <p class="title">Web Developer</p>
+                      <p class="title">Front-End Developer</p>
                       <p>Student at GEC,Patan</p>
                       <div> 
                           <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -50,7 +51,7 @@ include_once './templates/head.php';
                       <div class="profile-card">
                       <img src="img/team/2.jpg" class="profile-img thumbnail" alt="John">
                       <h3>Satyam Aggrawal</h3>
-                      <p class="title">Web Developer</p>
+                      <p class="title">Back-End Developer</p>
                       <p>Student at GEC,Patan</p>
                       <div> 
                           <a href="#"><i class="fab fa-facebook-f"></i></a>

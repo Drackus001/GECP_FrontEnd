@@ -3,6 +3,7 @@
 $title = "Downloads :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <!-- Head End -->
 
@@ -20,7 +21,7 @@ include_once './templates/head.php';
   ?>
   <!-- Navigation End -->
 
-<header  style="margin-top:150px;">
+<header  style="margin-top:100px;">
     <div class="container ">
       <center><h3><b>Important Downloads</b></h3></center>      
     </div>

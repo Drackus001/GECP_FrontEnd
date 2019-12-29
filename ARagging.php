@@ -3,6 +3,7 @@
 $title = "ARagging :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <!-- Head End -->
 

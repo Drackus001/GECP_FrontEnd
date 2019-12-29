@@ -3,9 +3,9 @@
 $title = "Profile :: Government Engineering College, Patan";
 include_once './templates/head.php';
 ?>
-
 <!-- Custom styles for this template -->
 <link href="css/profileCss.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
   
 </head>
 <!-- Head End -->
@@ -169,6 +169,8 @@ include_once './templates/head.php';
   <?php
   include './templates/scripts.php';
   ?>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Bootstrap core JavaScript End-->
 </body>
 
