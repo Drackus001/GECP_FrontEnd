@@ -2,32 +2,83 @@
  * 
  * 
  */
-/* Slider
+
+ /* Loader
 ================================================== */
-#slider{
-  margin-top: 150px;
+.loader-bg {
+  position: fixed;
+  z-index: 999999;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+} 
+.loader{
+ border: 0 solid transparent;
+ border-radius: 50%;
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
-#slider .slides h3{
-  margin: 16px;
+.loader::before, .loader::after{
+  content: "";
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border: 1em solid #ff5733;
+  animation: loader 2s linear infinite;  
+  -webkit-animation:  loader 2s linear infinite;
 }
-#slider .news{
+.loader::before{
+ animation-delay: .5s;
+ -webkit-animation-delay: 0.5s;
+}
+@keyframes loader{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+  50%{
+    transform: scale(0.5);
+     opacity: 0.5;
+  }
+  75%{
+    transform: scale(0.75);
+    opacity: 0.75;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+
+}
+/* News
+================================================== */
+.news{
   display: block;
   height: 500px;
   width: 450px;
   box-shadow: 0px 5px 7px 5px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
-#slider .news-box{
+ .news-box{
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
-#slider .news-list{
+.news-list{
   overflow: scroll;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none; 
   scroll-behavior: smooth;
 }
-#slider .news h4{
+.news h4{
   margin-bottom: 30px;
   background-color: #484848;
   color: #fec503;
