@@ -1,0 +1,116 @@
+ /* profile-page-parallax
+================================================== */
+div.parallax{
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/gallery/header.png");
+}
+#parallax h2{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: fit-content;
+  text-align: center;
+  color: #fff;
+}
+ /* profile-card
+================================================== */
+.profile-section{
+  display: block;
+  margin-top  : 50px;
+}
+.profile-section .profile-div{
+  margin: auto;
+  padding-bottom: 50px;
+}
+.breadcrumb-modern {
+  background-image: url(../img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.breadcrumb-modern .profile-card{
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.breadcrumb-modern .profile-card img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.breadcrumb-modern .profile-card .title {
+  color: grey;
+  font-size: 18px;
+}
+.breadcrumb-modern .profile-card a {
+    display: inline-block;
+    font-size: 16px;
+    color: #484848;
+    text-align: center;
+    border: 1px solid #484848;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:10px 5px;
+}
+ .breadcrumb-modern .profile-card a:hover {
+  background-color:#484848;
+  color: #fec503;
+  opacity: 0.7;
+}
+.detail{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.profile-section .detail table{
+  width: 100%;
+}
+.profile-section .section-heading{
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+ /* nav-pills section   
+================================================== */
+.nav-pills {
+	border-bottom: 1px solid #ddd;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.nav-pills ul{
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+}
+.nav-pills > li {
+	float: left;
+	margin-bottom: -1px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	color: #fec503;
+    background-color: #484848;
+	text-decoration: none;
+}
+.nav-pills > li > a {
+	border-radius: 4px;
+}
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+.nav > li> a {
+	color: #484848;
+	text-decoration: none;
+}

@@ -83,7 +83,8 @@
   background-color: #484848;
   color: #fec503;
 }
-
+ /* flip-card
+================================================== */
 @media (max-width: 1920px) {
 .flip-card {
   margin-bottom: 50px; 
@@ -160,7 +161,8 @@
   opacity: 0.7;
 }
 
-
+ /* Others
+================================================== */
 
 .page-section {
   padding: 100px 0;
@@ -233,6 +235,9 @@ img::-moz-selection {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
+
+ /* Courses
+================================================== */
 #portfolio .portfolio-item {
   margin-top: 15px;
   max-width: 300px;
@@ -392,6 +397,8 @@ img::-moz-selection {
   background-color: #212529;
 }
 
+ /* About-timeline
+================================================== */
 .timeline {
   position: relative;
   padding: 0;
@@ -576,4 +583,84 @@ img::-moz-selection {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+ /* profile-page-parallax
+================================================== */
+div.parallax{
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/gallery/header.png");
+}
+#parallax h2{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: fit-content;
+  text-align: center;
+  color: #fff;
+}
+ /* profile-card
+================================================== */
+.profile-section{
+  display: block;
+  margin-top  : 50px;
+}
+.profile-section .profile-div{
+  margin: auto;
+  padding-bottom: 50px;
+}
+.breadcrumb-modern {
+  background-image: url(../img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.breadcrumb-modern .profile-card{
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.breadcrumb-modern .profile-card img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.breadcrumb-modern .profile-card .title {
+  color: grey;
+  font-size: 18px;
+}
+.breadcrumb-modern .profile-card a {
+    display: inline-block;
+    font-size: 16px;
+    color: #484848;
+    text-align: center;
+    border: 1px solid #484848;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:10px 5px;
+}
+ .breadcrumb-modern .profile-card a:hover {
+  background-color:#484848;
+  color: #fec503;
+  opacity: 0.7;
+}
+.detail{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.profile-section .detail table{
+  width: 100%;
+}
+.profile-section .section-heading{
+  margin-top: 0;
+  margin-bottom: 40px;
 }
